@@ -1,3 +1,7 @@
+# .env File
+If you download the full code make sure to add an .env file 
+with the right variables and one that actually connects to Mongodb Atlas.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

@@ -35,6 +35,18 @@ body{
   padding: .5rem;
   margin-bottom: .4rem;
 }
+.todo:hover{
+  background-color: #4196ff;
+}
+.todo.done{
+  background-color: #5e80aa;
+}
+.todo.done:hover{
+  background-color: #4b6586;
+}
+.todo.done p{
+  text-decoration: line-through;
+}
 
 .todos{
   max-height: 100%;
@@ -43,10 +55,6 @@ body{
 }
 .todo-content{
   margin-bottom: 5rem;
-}
-
-.todo p.done{
-  text-decoration: line-through;
 }
 
 .add-note{
@@ -118,3 +126,23 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   background-color: #797979;
 }
+
+.loader {
+    width: 64px;
+    height: 64px;
+    border: 10px solid #FFF;
+    border-bottom-color: #0080ff;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} 
