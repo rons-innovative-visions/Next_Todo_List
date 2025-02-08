@@ -33,7 +33,7 @@ export default function Page() {
                         width={100}
                         height={100}
                         alt="Your Company"
-                        src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
+                        src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.d52e9897.svg"
                         className="mx-auto h-10 w-auto"
                     />
                     <h2 className="mt-5 text-center text-2xl/9 font-bold tracking-tight text-gray-900">
